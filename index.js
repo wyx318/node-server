@@ -1,3 +1,4 @@
+////创建服务器模块
 var http = require('http');
 var server = http.createServer(function(req,res){
 
@@ -7,5 +8,5 @@ var server = http.createServer(function(req,res){
     res.write('<h1>老王加油</h1>');
     res.end();
 })
-
+//设置服务器端口号
 server.listen(9090);
